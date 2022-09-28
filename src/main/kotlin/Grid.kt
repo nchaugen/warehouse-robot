@@ -1,4 +1,4 @@
-class Grid(
+internal class Grid(
     private val width: Int,
     private val length: Int
 ) {

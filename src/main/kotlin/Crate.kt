@@ -1,4 +1,4 @@
-class Crate(
+internal class Crate(
     position: Grid.Position,
     private val grabbed: Boolean = false
 ) : WarehouseElement(position) {

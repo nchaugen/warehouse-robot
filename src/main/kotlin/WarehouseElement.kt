@@ -1,4 +1,4 @@
-sealed class WarehouseElement(
+internal sealed class WarehouseElement(
     protected val position: Grid.Position
 ) {
     fun isInSamePositionAs(other: WarehouseElement) = this.position == other.position

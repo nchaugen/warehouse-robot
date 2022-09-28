@@ -1,4 +1,4 @@
-class Crates(
+internal class Crates(
     private val crates: List<Crate> = emptyList()
 ) {
 

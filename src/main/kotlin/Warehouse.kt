@@ -1,8 +1,9 @@
-class Warehouse(
-    private val grid: Grid = Grid(10, 10),
+class Warehouse private constructor(
+    private val grid: Grid,
     private val robot: Robot = Robot(grid.position(0, 0)),
     private val crates: Crates = Crates()
 ) {
+    constructor() : this(Grid(10, 10))
 
     fun execute(commands: String): Warehouse = Commands.parse(commands).fold(this, Warehouse::execute)
     private fun execute(command: Command) = command.invoke(this)

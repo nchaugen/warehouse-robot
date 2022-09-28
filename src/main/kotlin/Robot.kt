@@ -1,4 +1,4 @@
-class Robot(
+internal class Robot(
     position: Grid.Position
 ) : WarehouseElement(position) {
 
