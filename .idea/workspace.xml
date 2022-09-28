@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="017e5219-1f83-4a2c-bdba-df3f67d10dc8" name="Changes" comment="Kotlin version of Warehouse Robot" />
+    <list default="true" id="017e5219-1f83-4a2c-bdba-df3f67d10dc8" name="Changes" comment="Only Warehouse should be public">
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/WarehouseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/WarehouseTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664295366070</updated>
-      <workItem from="1664295368482" duration="41962000" />
+      <workItem from="1664295368482" duration="42543000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin version of Warehouse Robot">
       <created>1664397391275</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664397607547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Only Warehouse should be public">
+      <created>1664398090025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664398090025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin version of Warehouse Robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin version of Warehouse Robot" />
+    <MESSAGE value="Only Warehouse should be public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Only Warehouse should be public" />
   </component>
 </project>

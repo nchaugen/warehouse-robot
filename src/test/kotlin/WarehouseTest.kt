@@ -16,6 +16,21 @@ internal class WarehouseTest {
     }
 
     @Test
+    fun `should place robot and crates within warehouse grid`() {
+        assertThat(
+            Warehouse()
+                .withRobotAt(-1, -1)
+                .withCrateAt(-1, 10)
+                .withCrateAt(10, 10)
+        ).isEqualTo(
+            Warehouse()
+                .withRobotAt(0, 0)
+                .withCrateAt(0, 9)
+                .withCrateAt(9, 9)
+        )
+    }
+
+    @Test
     fun `should move crates`() {
         assertThat(
             Warehouse()
